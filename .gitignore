@@ -1,0 +1,20 @@
+# 运行时生成
+build/
+platform-tools/
+platform-tools.zip
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store
+
+# 本地信息（手机序列号等）
+*.local.md

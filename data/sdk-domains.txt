@@ -1,0 +1,52 @@
+# 广告 SDK 核心域名补充列表
+# 格式：每行一个域名，# 开头为注释
+# 说明：anti-AD 主库会漏掉这些，实测发现后手工补上
+# 更新日期：2026-10-28
+
+# 穿山甲 / 巨量引擎（字节跳动）
+ad.oceanengine.com
+analytics.oceanengine.com
+pglstatp-toutiao.com
+pangolin-sdk-toutiao.com
+gromore.pangolin-sdk-toutiao.com
+ad.toutiao.com
+api-access.pangolin-sdk-toutiao.com
+
+# 优量汇 / 广点通（腾讯）
+gdt.qq.com
+pgdt.gtimg.cn
+e.qq.com
+
+# 百度联盟
+cpro.baidu.com
+union.baidu.com
+mobads.baidu.com
+pos.baidu.com
+
+# 阿里妈妈（阿里巴巴）
+tanx.com
+alimama.com
+atanx.alicdn.com
+
+# 快手联盟
+kuaishouzt.com
+open.kuaishouzt.com
+ad.e.kuaishou.com
+
+# 广告归因 / 监测平台
+m-adnet.dutils.com
+api-verify.dutils.com
+cdn-api-verify.dutils.com
+api-c.dutils.com
+api-d.dutils.com
+api-df.dutils.com
+api-exc.dutils.com
+api-gd.dutils.com
+devs-data.dutils.com
+log-verify.dutils.com
+m.mpl.dutils.com
+h.m.mpl.dutils.com
+sdk-push.dutils.com
+abroad-sdk-push.dutils.com
+admaster.com.cn
+miaozhen.com

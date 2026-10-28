@@ -1,0 +1,5 @@
+# AdOff 只使用 Python 标准库，不需要安装任何第三方包。
+# 这个文件保留给需要额外工具的开发者参考。
+#
+# 跑测试：
+#   python -m unittest discover -s tests -v
