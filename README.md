@@ -8,6 +8,33 @@
 python adoff.py           # 菜单式操作，跟着提示走
 ```
 
+![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-4B5563)
+![Android](https://img.shields.io/badge/Android-免%20root-3DDC84?logo=android&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
+> 一个约 1000 行的 Python 工具：封装 adb、自动生成 hosts、安装并保活 AdAway、
+> 最后用真实域名解析验证拦截是否生效。**不是配置文件集合，是一套能跑完整个流程的程序。**
+
+---
+
+## 先看效果
+
+```
+$ python adoff.py verify
+
+  正在测试广告域名 …
+  ✓ gdt.qq.com            已拦截
+  ✓ pgdt.gtimg.cn         已拦截
+  ✓ ad.oceanengine.com    已拦截
+  ✓ alimama.com           已拦截
+
+  测试域名 4/4 全部被拦截
+```
+
+<!-- 待补：手机端效果图（开屏广告有无对比）。截图放到 docs/images/ 后取消注释 -->
+<!-- ![效果对比](docs/images/before-after.png) -->
+
 ---
 
 ## 它做了什么
@@ -59,10 +86,12 @@ python --version
 ## 开始使用
 
 ```bash
-git clone https://github.com/<your-name>/AdOff.git
+git clone https://github.com/3418638729/AdOff.git
 cd AdOff
 python adoff.py
 ```
+
+> 国内下载慢的话，在前面加镜像：`https://ghproxy.net/https://github.com/3418638729/AdOff.git`
 
 第一次运行会看到菜单：
 
@@ -264,3 +293,20 @@ AdOff/
 - [AdAway](https://github.com/AdAway/AdAway) —— 开源广告拦截器
 - [anti-AD](https://github.com/privacy-protection-tools/anti-AD) —— 中文广告域名库
 - [Gkd](https://github.com/gkd-kit/gkd) —— 无障碍自动点击
+
+---
+
+## 关于作者
+
+工科在读，平时写 Python / Android 小工具，习惯把「自己折腾过的步骤」整理成能跑的程序，
+而不是丢一堆配置让别人自己猜。
+
+这个项目是这么来的：我给自己的红米 K70 去广告，前后踩了六七个坑
+（小米文件选择器隐藏 `.hosts`、AdAway 被系统优化杀掉、VPN 隧道看着在其实断了……），
+每踩一次就写进代码里，最后变成了这个工具。
+
+**遇到问题、想加手机型号、想要类似的定制工具，欢迎开 [Issue](../../issues)。**
+
+## 许可
+
+MIT
